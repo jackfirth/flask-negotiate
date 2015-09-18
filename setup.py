@@ -1,26 +1,25 @@
 """
-Flask-Negotiate
+flask-negotiate2
 ===============
 
-Content negotiation utility for Flask apps.
+Content negotiation utility for Flask apps. Fork of Flask-Negotiate by
+Matt Wright (github.com/mattupstate)
 
 
 Resources
 ---------
 
-- `Documentation <http://packages.python.org/Flask-Negotiate/>`_
-- `Issue Tracker <http://github.com/mattupstate/flask-negotiate/issues>`_
-- `Code <http://github.com/mattupstate/flask-negotiate/>`_
-- `Development Version
-  <http://github.com/mattupstate/flask-negotiate/zipball/develop#egg=Flask-Negotiate-dev>`_
+- `Documentation <http://packages.python.org/flask-negotiate2/>`_
+- `Issue Tracker <http://github.com/jackfirth/flask-negotiate/issues>`_
+- `Code <http://github.com/jackfirth/flask-negotiate/>`_
 
 """
 from setuptools import setup
 
 setup(
-    name='Flask-Negotiate',
-    version='0.1.0',
-    url='https://github.com/mattupstate/flask-negotiate',
+    name='flask-negotiate2',
+    version='0.2.0',
+    url='https://github.com/jackfirth/flask-negotiate',
     license='MIT',
     author='Matthew Wright',
     author_email='matt@nobien.net',
@@ -30,7 +29,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     platforms='any',
-    install_requires=['Flask'],
+    install_requires=['flask'],
     test_suite='nose.collector',
     tests_require=['nose'],
     classifiers=[
