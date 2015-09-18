@@ -25,7 +25,7 @@ setup(
     author_email='matt@nobien.net',
     description='Content negotiation utility for Flask apps',
     long_description=__doc__,
-    py_modules=['flask_negotiate'],
+    py_modules=['flask_negotiate2'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',

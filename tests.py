@@ -1,7 +1,7 @@
 import unittest
 
 from flask import Flask
-from flask_negotiate import consumes, produces
+from flask_negotiate2 import consumes, produces
 
 HTML = 'text/html'
 JSON = 'application/json'
